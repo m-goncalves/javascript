@@ -9,5 +9,5 @@ if (time >= 6 & time < 12) {
 } else if (time >=0 & time < 6) {
     document.getElementById("compliments").innerHTML = "Good night, " + user_name + "!";
 }else {
-    "Enter a valid time!"
+    document.getElementById("compliments").innerHTML = "Enter a valid time, " + user_name + "!";
 }
