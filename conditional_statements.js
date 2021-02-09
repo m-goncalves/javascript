@@ -1,5 +1,7 @@
 var time = window.prompt("Enter the current time:");
+
 var user_name = window.prompt("Enter your name:")
+
 if (time >= 6 & time < 12) {
     document.getElementById("compliments").innerHTML = "Good morning, " + user_name + "!";
 }else if (time >= 12 & time < 18) {
